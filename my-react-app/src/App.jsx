@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { io } from "socket.io-client";
 import { motion, AnimatePresence } from "framer-motion";
 
-const SOCKET_URL = "http://localhost:5000"; // change after deploy
+const SOCKET_URL = "https://taptalentbackend-1.onrender.com"; 
 
 function App() {
   const socketRef = useRef(null);
